@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.1.1/css/mdb.min.css"> -->
+
+    <title>Book Your Room</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url(resort.jpg);
+            background-position: center;
+            background-size:auto;
+        }
+        
+        .hdr1{
+            text-align: justify;
+            margin-top: 120px;
+            color: black;
+            
+            margin-left: 400px;
+            margin-right: 518px;
+            
+        }
+        .form{
+            border: 1px solid black;
+            width: 400px;
+            height: 800px;
+        }
+        .fa{
+            font-size: 15px;
+            position: absolute;
+            padding: 12px;
+            padding-left: 0;
+            margin-left: 1px;
+            display: inline-block;
+            color: red;
+            
+            
+        }
+        
+    
+        .r1{
+        
+            margin-left: 200px;
+        }
+        .bg-dark-blue{
+            width: 1100px;
+        }
+        .col-md-4{
+            height: 300px;
+            margin-top: 25px;
+            padding: 20px;
+            background-color: rgb(29, 29, 31);
+            opacity: .8;
+        
+        }
+        #Submit-btn{
+            margin-left: 120px;
+            width: 100px;
+            height: 40px;
+            text-align: center;
+            background: transparent;
+            color: #fff;
+            border: 1px solid black;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+
+        }
+        @media screen and (max-width: 500px) {
+            .form-group{
+                font-size: medium;
+        
+            }
+        }
+        
+
+
+    </style>
+</head>
+<body>
+   
+    <div class="container expand-md">
+
+        <h1 class="hdr1">Book Now</h1>    
+        <div class=" r1 row mt-4">
+            <div class="col-md-4">
+                <form class="form1">
+                    <div class="form-group">
+                        <i class=" fnt1 fa fa-user" aria-hidden="true"></i>
+                      <input type="text" class="form-control" placeholder=" First Name">
+                    </div>
+                    <div class="form-group">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <input type="text" class="form-control" placeholder=" Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                        <input type="date" class="form-control" placeholder=" Departure Date">
+                    </div>
+                    <div class="form-group">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <select class="form-control" style="background-color: black;">
+                            <option value="">No.of Guests</option>
+                            <option value="">1-5</option>
+                            <option value="">5-10</option>
+                            <option value="">10-15</option>
+                        
+                        </select>
+                    </div>
+                    </form>
+            </div>
+
+            <div class="col-md-4">
+                <form class="form1">        
+                    <div class="form-group">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                      <input type="text" class="form-control" placeholder=" Last Name">
+                    </div>
+                    <div class="form-group">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <input type="text" class="form-control" placeholder=" Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                        <input type="date" class="form-control" placeholder=" Arrival Date">
+                    </div>
+                    <div class="form-group">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <select class="form-control" style="background-color: black;">
+                            <option value="">Room Type</option>
+                            <option value="">AC</option>
+                            <option value="">Non-Ac</option>
+                            <option value="">Single</option>
+                            <option value="">Double</option>
+                        </select>
+                    </div>
+                    <button type="submit" value="submit" id="Submit-btn">Book</button>
+                </form>
+        
+            </div>
+            
+
+        </div>
+    
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
