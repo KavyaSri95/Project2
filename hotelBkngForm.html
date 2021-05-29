@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.1.1/css/mdb.min.css">
+
+    <title>Hotel Booking</title>
+
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        @media screen and (max-width: 600px) {
+            .navbar-brand{
+                font-size: medium;
+        
+            }
+        }
+        body{
+            background-color: lightslategray;
+        }
+        .row{
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main-Header -->
+    <div class="row">
+        <div class="col-md-4">
+          <div class="card animated jello">
+            <div class="card-header text-center bg-primary text-white ">
+              <h3>Book Here</h3>
+              <!-- <button class="close" data-dismiss="modal">
+                <i class="fa fa-times-circle"></i>
+            </button> -->
+            </div>
+              <div class="card-body bg-light-blue">
+                <form>
+                  <div class="form-group">
+                    <!-- <input type="text" class="form-control" placeholder="Select Destination"> -->
+                    <select class="form-control">
+                        <option value="">--Select Your Destination--</option>
+                        <option value="">Charminar</option>
+                        <option value="">Golkonda</option>
+                        <option value="">Laknavaram</option>
+                        <option value="">RamojiFil city</option>
+                        <option value="">Papikondalu</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="From">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="To">
+                  </div>
+                  <div class="form-group">
+                
+                    <select class="form-control">
+                        <option value="">--No. of Persons--</option>
+                        <option value="">1-4</option>
+                        <option value="">4-8</option>
+                        <option value="">8-12</option>
+                        <option value="">12-16</option>
+                        <option value="">16-20</option>
+                    </select>
+                  </div>
+                  <div class="text-center">
+                    <input type="submit" value="Book" class="btn btn-primary">
+                  </div>
+                </form>
+              </div>         
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  
+          
+        
+
+    
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+    </body>
+</html>
