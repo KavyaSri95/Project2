@@ -33,21 +33,29 @@
         margin: auto;
         
     }
-    .map1{
-        margin-top: 20px;
-        width: 820px;
-        height: 300px;
-        
-    }
+
+    .iframe-container {
+        overflow: hidden;
+        padding-top: 56.25%; /* 16:9*/
+        position: relative;
+      }
+      
+      .iframe-container iframe {
+         border: 0;
+         height: 100%;
+         left: 0;
+         position: absolute;
+         top: 0;
+         width: 100%;
+      }
+    
     .h1{
         color: #EA2027;
     }
     .hd2{
         color: #0652DD;
     }
-    .map-title{
-        color: #E94057;
-    }
+    
     
 </style>
 
@@ -108,7 +116,7 @@
 
                     Although this lake is ideal for visiting throughout the year, the best time to visit Laknavaram Lake is during the monsoon and winter season. During these months, many tourists plan Warangal tour and visit this lake as well. As in rainy season, the lake is filled with water and the surrounding area also sees more of freshly grown flora.</p>
     </div>
-    <div> <h1 class=" hd2 font-weight-bold mt-4 py-4 text-justify">History of Laknavaram Lake</h1>
+    <div> <h1 class=" hd2 font-weight-bold mt-4 py-4 text-justify">History</h1>
     <p>The history of Laknavaram Lake goes back to Kakatiya reign. Also known as Laknavaram Cheruvu, this lake was
          first discovered by the Kakatiya rulers. They found a beautiful lake lying amid flourishing hills that 
          surrounded it. It was then the rulers of Kakatiya reign built a small sluice gate that eventually transformed
@@ -116,10 +124,12 @@
           water for an area of around 3,500 acres of land, to six villages that are located nearby.
          It has the capacity to hold around 2.135 tmc ft. of water.</p>
     </div>
-    <div class="map">
-        <div class=" map-title"><h1 class=" font-weight-bold">Location Map for Laknavaram Lake, Warangal</h1></div>
-        <iframe class="map1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26282.486842671737!2d79.4815465808503!3d18.073709525973854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a33493e53733777%3A0xf4d30cda497ea063!2sLaknavaram%2C%20Telangana%20506371!5e0!3m2!1sen!2sin!4v1623488005755!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </div>
+
+    <div class="title"><h1 class="text-warning font-weight-bold">Location</h1></div>
+    <div class="iframe-container mb-5">
+        
+        <iframe width="560" height="315" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26282.486842671737!2d79.4815465808503!3d18.073709525973854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a33493e53733777%3A0xf4d30cda497ea063!2sLaknavaram%2C%20Telangana%20506371!5e0!3m2!1sen!2sin!4v1623488005755!5m2!1sen!2sin" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" loading="lazy" allowfullscreen></iframe>
+      </div>
 
 </div>
 
